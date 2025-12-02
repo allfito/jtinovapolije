@@ -418,7 +418,7 @@ footer .fa-youtube:hover { color: #FF0000 !important; transform: scale(1.1); }
 
 /* Tablet Medium */
 @media (max-width: 768px) {
-    body { padding-top: 100px; }
+    body { padding-top: 66px; }
 
     .hero-section h1 { font-size: 2.5rem !important; }
     .hero-section h2 { font-size: 1.8rem !important; }
@@ -436,11 +436,12 @@ footer .fa-youtube:hover { color: #FF0000 !important; transform: scale(1.1); }
 }
 
 /* Mobile */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     .hero-section h1 { font-size: 2rem !important; }
     .hero-section h2 { font-size: 1.5rem !important; }
     footer { text-align: center; }
     footer .d-flex.gap-3 { justify-content: center; }
 }
+
 
 
