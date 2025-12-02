@@ -9,11 +9,21 @@
 }
 
 /* Global Styles */
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: var(--text);
     padding-top: 76px;
+    display: flex;
+    flex-direction: column;
+}
+
+main, section {
+    flex: 1;
 }
 
 .section-title {
@@ -372,6 +382,7 @@ body {
 /* Footer Styles */
 footer {
     background-color: #1a252f !important;
+    margin-top: auto;
 }
 
 footer .text-light {
