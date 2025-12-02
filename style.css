@@ -436,9 +436,10 @@ footer .fa-youtube:hover { color: #FF0000 !important; transform: scale(1.1); }
 }
 
 /* Mobile */
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     .hero-section h1 { font-size: 2rem !important; }
     .hero-section h2 { font-size: 1.5rem !important; }
     footer { text-align: center; }
     footer .d-flex.gap-3 { justify-content: center; }
 }
+
