@@ -418,7 +418,7 @@ footer .fa-youtube:hover { color: #FF0000 !important; transform: scale(1.1); }
 
 /* Tablet Medium */
 @media (max-width: 768px) {
-    body { padding-top: 66px; }
+    body { padding-top: 100px; }
 
     .hero-section h1 { font-size: 2.5rem !important; }
     .hero-section h2 { font-size: 1.8rem !important; }
@@ -442,4 +442,5 @@ footer .fa-youtube:hover { color: #FF0000 !important; transform: scale(1.1); }
     footer { text-align: center; }
     footer .d-flex.gap-3 { justify-content: center; }
 }
+
 
