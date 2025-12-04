@@ -9,11 +9,25 @@
 }
 
 /* Global Styles */
+/* reset box-sizing and default margins to avoid unexpected gaps/overflow */
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: var(--text);
     padding-top: 76px;
+    display: flex;
+    flex-direction: column;
+}
+
+main, section {
+    flex: 1;
 }
 
 .section-title {
@@ -295,6 +309,12 @@ body {
 .galeri-section .carousel-control-prev { left: -25px; }
 .galeri-section .carousel-control-next { right: -25px; }
 
+/* Prevent carousel controls from creating horizontal overflow on small screens */
+@media (max-width: 768px) {
+    .galeri-section .carousel-control-prev { left: 0; }
+    .galeri-section .carousel-control-next { right: 0; }
+}
+
 /* Indicators */
 .galeri-section .carousel-indicators {
     bottom: -50px;
@@ -372,6 +392,7 @@ body {
 /* Footer Styles */
 footer {
     background-color: #1a252f !important;
+    margin-top: auto;
 }
 
 footer .text-light {
@@ -442,6 +463,5 @@ footer .fa-youtube:hover { color: #FF0000 !important; transform: scale(1.1); }
     footer { text-align: center; }
     footer .d-flex.gap-3 { justify-content: center; }
 }
-
 
 
