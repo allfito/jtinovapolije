@@ -338,7 +338,7 @@ main, section {
 .contact-form .form-control {
     border: 1px solid #495057;
     background-color: rgba(255,255,255,0.1);
-    color: white;
+    /* color: white; */
 }
 
 .contact-form .form-control::placeholder {
@@ -348,7 +348,7 @@ main, section {
 .contact-form .form-control:focus {
     background-color: rgba(255,255,255,0.15);
     border-color: var(--secondary);
-    color: white;
+    /* color: white; */
     box-shadow: 0 0 0 0.2rem rgba(231,76,60,0.25);
 }
 
